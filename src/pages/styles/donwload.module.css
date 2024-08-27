@@ -1,0 +1,33 @@
+.container {
+  background-color: black;
+  color: white;
+}
+.catGrid {
+  margin: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 20px 80px;
+  border: 0;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  width: fit-content;
+  cursor: pointer;
+}
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: center;
+}
+.catGridItem {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 16px;
+  margin: 12px;
+}

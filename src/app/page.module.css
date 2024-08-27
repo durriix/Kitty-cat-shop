@@ -1,0 +1,60 @@
+.main {
+  background-color: black;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+.footer {
+  color: white;
+  background-color: black;
+  font-size: large;
+  text-align: center;
+  padding: 20px;
+}
+
+.catGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  margin: 30px 0;
+}
+.catCard {
+  margin-top: 20px;
+}
+.summary {
+  cursor: pointer;
+  font-size: 28px;
+}
+.details[open] .summary ~ * {
+  animation: sweep 1s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -40px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 20px;
+  }
+}
+.heading1 {
+  font-size: 60px;
+}
+.heading3 {
+  font-size: 32px;
+  color: rgb(177, 177, 177);
+}
+.heading2 {
+  padding: 60px 0;
+  font-size: 52px;
+  text-align: center;
+}

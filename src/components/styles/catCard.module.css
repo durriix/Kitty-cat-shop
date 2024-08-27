@@ -1,0 +1,60 @@
+.card {
+  position: relative;
+  height: 30vh;
+  border-radius: 32px; /* Apply rounded corners */
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.name {
+  color: white; /* Adjust text color for better contrast */
+  font-size: 36px;
+}
+
+.description {
+  margin: 12px 0;
+}
+
+.button {
+  padding: 20px 15px;
+  background-color: darkslategray;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.cardContent {
+  position: absolute; /* Position content on top of the image */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem; /* Add some padding for the content */
+  display: flex; /* Center content vertically */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Adjust text color for better contrast */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional background color for content */
+}

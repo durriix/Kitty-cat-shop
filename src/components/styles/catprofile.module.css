@@ -1,0 +1,30 @@
+.cat_profile {
+  margin: 20px 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.headings {
+  padding: 32px 20px;
+}
+.name {
+  padding-bottom: 20px;
+  font-size: 52px;
+}
+.image {
+  margin: 30px;
+  height: inherit;
+  width: 15vw;
+  border-radius: 16px;
+}
+.age {
+  font-size: 32px;
+  padding-bottom: 20px;
+  font-weight: normal;
+}
+.description {
+  font-style: italic;
+}
